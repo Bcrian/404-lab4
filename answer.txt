@@ -1,0 +1,15 @@
+1. https://github.com/Bcrian/404-lab4
+2. It is a django webpage which shows "The install worked successfully! Congratulations!"
+3. The “404 not found” is shown on route ‘/’ and the text 
+    "Hello, world. You're at the polls index." is shown on route ‘/polls‘
+4. To build or edit our database according to the database settings.
+5. There are two model, Questions and Choices under POLLS tab. 
+    We can set our own models and their field and register the models
+6. '/polls/38/' shows "You're looking at question 38."
+    '/polls/38/results' shows "You're looking at the results of question 38."
+    '/polls/38/vote' shows "You're voting on question 38."
+    Type error raises, question ID has been set to INT.
+    We have to change ID Type to str from int.
+7. Because we need to change urls everytime it changes
+8. Django's generic views can reduce redundancy. 
+    If multiple views have some features in common then we can use generic view
